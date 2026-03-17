@@ -951,3 +951,28 @@ section { padding: 4rem 0; }
   font-size: 0.85em;
   margin-left: 6px;
 }
+
+/* ---- Clinical Images ---- */
+.clinical-image {
+  margin: 24px 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f8f9fa;
+}
+.clinical-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 480px;
+  object-fit: cover;
+  object-position: center;
+}
+.clinical-image figcaption {
+  padding: 10px 14px;
+  font-size: 0.78rem;
+  color: #666;
+  line-height: 1.5;
+  border-top: 1px solid #e2e8f0;
+  font-style: italic;
+}
