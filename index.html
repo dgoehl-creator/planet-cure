@@ -163,7 +163,8 @@
       <div class="section-label">Stay Informed</div>
       <h2>We update our pages as new research emerges.</h2>
       <p>New treatment options, clinical trials, and evidence updates — delivered to your inbox. No spam. No pharma ads. Just research.</p>
-      <form class="email-form" action="https://app.convertkit.com/forms/XXXXXXXX/subscriptions" method="post">
+      <form class="email-form" action="/" method="post" data-netlify="true" name="planetcure-email-signup">
+        <input type="hidden" name="form-name" value="planetcure-email-signup">
         <input type="email" name="email_address" placeholder="your@email.com" required aria-label="Email address">
         <button type="submit" class="btn btn-teal">Get Updates</button>
       </form>
