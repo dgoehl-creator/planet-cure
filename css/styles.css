@@ -910,3 +910,44 @@ section { padding: 4rem 0; }
   a { color: #000 !important; }
   .callout, .callout-start, .treatment-card { border: 1px solid #ccc !important; background: #f9f9f9 !important; }
 }
+
+/* ============================================
+   Monetization Layer — Ebook CTAs & Affiliate
+   ============================================ */
+
+.ebook-cta {
+  background: #fff8e7;
+  border-left: 4px solid #e8a020;
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin: 32px 0;
+}
+.ebook-cta h3 {
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+.ebook-cta .ebook-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e8a020;
+  margin: 12px 0;
+}
+.btn-amber {
+  background: #e8a020;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 8px;
+}
+.btn-amber:hover {
+  background: #c8881a;
+  color: #fff;
+}
+.affiliate-link {
+  color: #1a5c6b;
+  font-size: 0.85em;
+  margin-left: 6px;
+}
